@@ -172,7 +172,7 @@ if sim_object == SimObject:
     code("""#include <string>""")
 
 cxx_class = CxxClass(
-    sim_object._value_dict["cxx_class"],
+    # sim_object._value_dict["cxx_class"],
     sim_object._value_dict["cxx_template_params"],
 )
 
